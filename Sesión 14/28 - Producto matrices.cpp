@@ -1,13 +1,12 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en Ingeniería Informática
-Asignatura: Fundamentos de la Programación
-Curso: 1º 	Grupo: C		Subgrupo: C1
-Profesor Teoría: Juan Carlos Cubero
-Proferosa Prácticas: María del Carmen Pegalajar
+Grado en IngenierÃ­a InformÃ¡tica
+Asignatura: Fundamentos de la ProgramaciÃ³n
+Curso: 1Âº 	Grupo: C		Subgrupo: C1
+Profesor TeorÃ­a: Juan Carlos Cubero
+Proferosa PrÃ¡cticas: MarÃ­a del Carmen Pegalajar
 
-Sesión 14
+SesiÃ³n 14
 Ejercicio 28 - Producto matrices
 
 Programa que lee los datos de dos matrices de reales, n x m  y  m x k, respectivamente,
@@ -55,7 +54,7 @@ int main(){
 		}
 	}
 	
-	// Cómputos
+	// CÃ³mputos
 	for (int i = 0 ; i < numero_columnas_matriz_1 ; i++)
 		for (int j = 0 ; j < numero_columnas_matriz_2 ; j++){
 			matriz_3[i][j] = 0;
