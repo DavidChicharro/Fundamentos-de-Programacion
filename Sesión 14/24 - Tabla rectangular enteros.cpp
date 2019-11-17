@@ -1,17 +1,16 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en Ingeniería Informática
-Asignatura: Fundamentos de la Programación
-Curso: 1º 	Grupo: C		Subgrupo: C1
-Profesor Teoría: Juan Carlos Cubero
-Proferosa Prácticas: María del Carmen Pegalajar
+Grado en IngenierÃ­a InformÃ¡tica
+Asignatura: Fundamentos de la ProgramaciÃ³n
+Curso: 1Âº 	Grupo: C		Subgrupo: C1
+Profesor TeorÃ­a: Juan Carlos Cubero
+Proferosa PrÃ¡cticas: MarÃ­a del Carmen Pegalajar
 
-Sesión 14
+SesiÃ³n 14
 Ejercicio 24 - Tabla rectangular de enteros
 
-Programa que lee una tabla de enteros y dice si es simétrica o no.
-Además calcula su traspuesta, y el producto de la tabla original por la traspuseta,
+Programa que lee una tabla de enteros y dice si es simÃ©trica o no.
+AdemÃ¡s calcula su traspuesta, y el producto de la tabla original por la traspuseta,
 imprimiendo ambas en pantalla.
 
 */
@@ -225,7 +224,7 @@ int main(){
    cin >> columnas;
    
    
-   // Cómputos
+   // CÃ³mputos
    secuencia = lector_secuencias.Lee(filas*columnas);
   	TablaRectangularEnteros tabla(filas, columnas);
   	
