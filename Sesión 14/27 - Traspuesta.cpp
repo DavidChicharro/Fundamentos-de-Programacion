@@ -1,17 +1,16 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en Ingeniería Informática
-Asignatura: Fundamentos de la Programación
-Curso: 1º 	Grupo: C		Subgrupo: C1
-Profesor Teoría: Juan Carlos Cubero
-Proferosa Prácticas: María del Carmen Pegalajar
+Grado en IngenierÃ­a InformÃ¡tica
+Asignatura: Fundamentos de la ProgramaciÃ³n
+Curso: 1Âº 	Grupo: C		Subgrupo: C1
+Profesor TeorÃ­a: Juan Carlos Cubero
+Proferosa PrÃ¡cticas: MarÃ­a del Carmen Pegalajar
 
-Sesión 14
+SesiÃ³n 14
 Ejercicio 27 - Traspuesta
 
 Programa que lee como entrada valores para una matriz y que
-muestra por pantalla la traspuesta de ésta
+muestra por pantalla la traspuesta de Ã©sta
 
 */
 
@@ -48,7 +47,7 @@ int main(){
 		}
 	}
 	
-	// Cómputos y salida de resultados
+	// CÃ³mputos y salida de resultados
 	cout << "\nSalida\n";
 	for(int j = 0 ; j < num_columnas ; j++){
 		for(int i = 0 ; i < num_filas ; i++)
