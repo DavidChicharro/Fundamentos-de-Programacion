@@ -1,17 +1,16 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en Ingeniería Informática
-Asignatura: Fundamentos de la Programación
-Curso: 1º 	Grupo: C		Subgrupo: C1
-Profesor Teoría: Juan Carlos Cubero
-Proferosa Prácticas: María del Carmen Pegalajar
+Grado en IngenierÃ­a InformÃ¡tica
+Asignatura: Fundamentos de la ProgramaciÃ³n
+Curso: 1Âº 	Grupo: C		Subgrupo: C1
+Profesor TeorÃ­a: Juan Carlos Cubero
+Proferosa PrÃ¡cticas: MarÃ­a del Carmen Pegalajar
 
-Sesión
+SesiÃ³n
 Ejercicio 21 - Promedio en una clase (Examen Febrero 2015) 
 
-Programa que calcula en una matriz cuadrada, en su triángulo superior,
-el valor promedio de los números y los que se encuentran a su derecha.
+Programa que calcula en una matriz cuadrada, en su triÃ¡ngulo superior,
+el valor promedio de los nÃºmeros y los que se encuentran a su derecha.
 
 */
 
