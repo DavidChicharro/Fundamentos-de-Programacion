@@ -1,17 +1,16 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en IngenierÌa Inform·tica
-Asignatura: Fundamentos de la ProgramaciÛn
-Curso: 1∫ 	Grupo: C		Subgrupo: C1
-Profesor TeorÌa: Juan Carlos Cubero
-Proferosa Pr·cticas: MarÌa del Carmen Pegalajar
+Grado en Ingenier√≠a Inform√°tica
+Asignatura: Fundamentos de la Programaci√≥n
+Curso: 1¬∫ 	Grupo: C		Subgrupo: C1
+Profesor Teor√≠a: Juan Carlos Cubero
+Proferosa Pr√°cticas: Mar√≠a del Carmen Pegalajar
 
-SesiÛn 14
+Sesi√≥n 14
 Ejercicio 23 - Imagen Suavizada
 
-Programa que lee el tamaÒo de una imagen (filas y columnas) y los datos correspondientes. 
-El programa construir· la imagen suavizada e imprimir· el resultado en pantalla.
+Programa que lee el tama√±o de una imagen (filas y columnas) y los datos correspondientes. 
+El programa construir√° la imagen suavizada e imprimir√° el resultado en pantalla.
 
 */
 
@@ -81,7 +80,7 @@ public:
 };
 
 int main(){
-	// DeclaraciÛn de variables
+	// Declaraci√≥n de variables
 	int num_filas, num_columnas, numero;
 	
 	// Entrada de datos
@@ -98,7 +97,7 @@ int main(){
 			imagen.Aniade(i, j, numero);
 		}
 		
-	// CÛmputos
+	// C√≥mputos
 	ImagenBlancoNegro suavizada(imagen.Suaviza(imagen));
 	
 	// Salida de resultados
