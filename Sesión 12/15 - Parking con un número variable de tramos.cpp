@@ -1,20 +1,19 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en Ingeniería Informática
-Asignatura: Fundamentos de la Programación
-Curso: 1º 	Grupo: C		Subgrupo: C1
-Profesor Teoría: Juan Carlos Cubero
-Proferosa Prácticas: María del Carmen Pegalajar
+Grado en IngenierÃ­a InformÃ¡tica
+Asignatura: Fundamentos de la ProgramaciÃ³n
+Curso: 1Âº 	Grupo: C		Subgrupo: C1
+Profesor TeorÃ­a: Juan Carlos Cubero
+Proferosa PrÃ¡cticas: MarÃ­a del Carmen Pegalajar
 
-Sesión 12
-Ejercicio 15 - Parking con un número variable de tramos
+SesiÃ³n 12
+Ejercicio 15 - Parking con un nÃºmero variable de tramos
 
-El programa pedirá que se introduzcan los límites máximos y las tarifas
-de cada tramo horario de cobro para cada parking. Después se pedirá que 
-se introduzcan las horas de entrada y salida del vehículo. El programa 
-calculará la tarifa a aplicar según los tramos establecidos en cada parking.
-Por último, se imprimirá en pantalla la tarifa a aplicar.
+El programa pedirÃ¡ que se introduzcan los lÃ­mites mÃ¡ximos y las tarifas
+de cada tramo horario de cobro para cada parking. DespuÃ©s se pedirÃ¡ que 
+se introduzcan las horas de entrada y salida del vehÃ­culo. El programa 
+calcularÃ¡ la tarifa a aplicar segÃºn los tramos establecidos en cada parking.
+Por Ãºltimo, se imprimirÃ¡ en pantalla la tarifa a aplicar.
 
 */
 
@@ -103,8 +102,8 @@ int main(){
 		cin >> limite_superior;
 		cin >> tarifa;
 		parking_1.AniadeTramo(limite_superior, tarifa);
-	}while (limite_superior != TERMINADOR 													// Cuando limite_superior sea -1, éste valdrá tanto de TERMINADOR
-			  && parking_1.TotalUtilizados() < parking_1.Capacidad() );				// como para definir el último tramo
+	}while (limite_superior != TERMINADOR 													// Cuando limite_superior sea -1, Ã©ste valdrÃ¡ tanto de TERMINADOR
+			  && parking_1.TotalUtilizados() < parking_1.Capacidad() );				// como para definir el Ãºltimo tramo
 
 	cout << "\nParking 2: \n";
 	do{
