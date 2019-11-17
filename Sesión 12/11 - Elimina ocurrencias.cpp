@@ -1,19 +1,18 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en Ingeniería Informática
-Asignatura: Fundamentos de la Programación
-Curso: 1º 	Grupo: C		Subgrupo: C1
-Profesor Teoría: Juan Carlos Cubero
-Proferosa Prácticas: María del Carmen Pegalajar
+Grado en IngenierÃ­a InformÃ¡tica
+Asignatura: Fundamentos de la ProgramaciÃ³n
+Curso: 1Âº 	Grupo: C		Subgrupo: C1
+Profesor TeorÃ­a: Juan Carlos Cubero
+Proferosa PrÃ¡cticas: MarÃ­a del Carmen Pegalajar
 
-Sesión 12
-Ejercicio 11 - Elimina todas las ocurrencias de un carácter. Versión ineficiente
+SesiÃ³n 12
+Ejercicio 11 - Elimina todas las ocurrencias de un carÃ¡cter. VersiÃ³n ineficiente
 
-Sobre la clase SecuenciaCaracteres, añada el método EliminaOcurrencias 
-para eliminar todas las apariciones de un determinado carácter a_borrar.
+Sobre la clase SecuenciaCaracteres, aÃ±ada el mÃ©todo EliminaOcurrencias 
+para eliminar todas las apariciones de un determinado carÃ¡cter a_borrar.
 
-Un primer algoritmo para resolver este problema sería el siguiente:
+Un primer algoritmo para resolver este problema serÃ­a el siguiente:
 
 class SecuenciaCaracteres{
 	.........
@@ -24,22 +23,22 @@ class SecuenciaCaracteres{
 	}
 };
 
-El anterior código tiene un fallo. ¿Cuál? Pruébelo con cualquier secuencia que tenga
-el carácter a borrar dos veces consecutivas. Proponga una solución e impleméntela
+El anterior cÃ³digo tiene un fallo. Â¿CuÃ¡l? PruÃ©belo con cualquier secuencia que tenga
+el carÃ¡cter a borrar dos veces consecutivas. Proponga una soluciÃ³n e implemÃ©ntela
 
 */
 
 /*
-El método Elimina que se ha propuesto sólo consigue borrar un caracter 
+El mÃ©todo Elimina que se ha propuesto sÃ³lo consigue borrar un caracter 
 cuando hay dos seguidos que son iguales, puesto que el caracter repetido
-pasa a la posición anterior mientras que en el bucle 'for' se pasa al caracter siguiente.
+pasa a la posiciÃ³n anterior mientras que en el bucle 'for' se pasa al caracter siguiente.
 
-La solución pasa por cambiar el 'if' por un 'while'.
+La soluciÃ³n pasa por cambiar el 'if' por un 'while'.
 
-El programa leerá caracteres que irá almacenando en un vector.
-Después pedirá que se introduzca el caracter que se desea eliminar 
-tantas veces como aparezca. El programa eliminará el caracter deseado
-e imprimirá en pantalla los caracteres introducidos al principio sin 
+El programa leerÃ¡ caracteres que irÃ¡ almacenando en un vector.
+DespuÃ©s pedirÃ¡ que se introduzca el caracter que se desea eliminar 
+tantas veces como aparezca. El programa eliminarÃ¡ el caracter deseado
+e imprimirÃ¡ en pantalla los caracteres introducidos al principio sin 
 los que se ha pedido eliminar.
 
 */
