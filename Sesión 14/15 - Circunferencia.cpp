@@ -1,19 +1,18 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en IngenierÌa Inform·tica
-Asignatura: Fundamentos de la ProgramaciÛn
-Curso: 1∫ 	Grupo: C		Subgrupo: C1
-Profesor TeorÌa: Juan Carlos Cubero
-Proferosa Pr·cticas: MarÌa del Carmen Pegalajar
+Grado en Ingenier√≠a Inform√°tica
+Asignatura: Fundamentos de la Programaci√≥n
+Curso: 1¬∫ 	Grupo: C		Subgrupo: C1
+Profesor Teor√≠a: Juan Carlos Cubero
+Proferosa Pr√°cticas: Mar√≠a del Carmen Pegalajar
 
-SesiÛn 14
+Sesi√≥n 14
 Ejercicio 15 - Circunferencia con centro un Punto2D
 
 Programa que lee el centro y la longitud del radio para construir una circunferencia.
-A partir de ella se construir· el segmento correspondiente al radio.
-DespuÈs se calcular· la longitud del segmento radio y mostrar· el resultado en pantalla,
-que deber· coincidir con la longitud original del radio)
+A partir de ella se construir√° el segmento correspondiente al radio.
+Despu√©s se calcular√° la longitud del segmento radio y mostrar√° el resultado en pantalla,
+que deber√° coincidir con la longitud original del radio)
 */
 
 #include <iostream>
@@ -118,7 +117,7 @@ int main(){
 	SegmentoDirigido segmento_dirigido(centro_circunferencia_abscisa, centro_cincunferencia_ordenada,
 							 punto_abscisa, punto_ordenada);
 	
-	// CÛmputos y salida de resultados
+	// C√≥mputos y salida de resultados
 	cout << "A continuacion se mostrara la longitud del segmento dirigido. " << endl
 		  << "Medira lo mismo que el radio si las coordenadas introducidas pertenecen a la circunferencia. " << endl
 		  << segmento_dirigido.Longitud() << endl;
