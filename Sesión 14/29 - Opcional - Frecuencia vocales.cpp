@@ -1,19 +1,18 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en IngenierÌa Inform·tica
-Asignatura: Fundamentos de la ProgramaciÛn
-Curso: 1∫ 	Grupo: C		Subgrupo: C1
-Profesor TeorÌa: Juan Carlos Cubero
-Proferosa Pr·cticas: MarÌa del Carmen Pegalajar
+Grado en Ingenier√≠a Inform√°tica
+Asignatura: Fundamentos de la Programaci√≥n
+Curso: 1¬∫ 	Grupo: C		Subgrupo: C1
+Profesor Teor√≠a: Juan Carlos Cubero
+Proferosa Pr√°cticas: Mar√≠a del Carmen Pegalajar
 
-SesiÛn 14
+Sesi√≥n 14
 Ejercicio [Frecuencias vocales]. (Examen Septiembre 2016) 
 Queremos calcular la frecuencia absoluta de las vocales (sin acentuar) presentes en un texto 
 y mostrar el resultado en forma de un diagrama de barras en el que cada barra corresponde a una vocal 
-y la altura representa la frecuencia de apariciÛn de la correspondiente vocal.
+y la altura representa la frecuencia de aparici√≥n de la correspondiente vocal.
 
-Un ejemplo de diagrama de barras serÌa el siguiente:
+Un ejemplo de diagrama de barras ser√≠a el siguiente:
 		6 		  #
 		5 	 #   #
 		4 	 # # #
@@ -22,17 +21,17 @@ Un ejemplo de diagrama de barras serÌa el siguiente:
 		1 # # # # #
 		  a e i o u
 		  
-Cada apariciÛn de una vocal la representaremos con un asterisco *.
+Cada aparici√≥n de una vocal la representaremos con un asterisco *.
 Defina una matriz de caracteres directamente dentro del main para almacenar las barras. 
 
-Se emplea el car·cter '*' para indicar que la casilla est· ocupada y 
-el car·cter' ' (espacio en blanco) para indicar que la casilla est· libre. 
-En la matriz no almacenaremos ni los n˙meros 1, 2, 3, 4, ... ni las vocales a, e, i, o , u.
+Se emplea el car√°cter '*' para indicar que la casilla est√° ocupada y 
+el car√°cter' ' (espacio en blanco) para indicar que la casilla est√° libre. 
+En la matriz no almacenaremos ni los n√∫meros 1, 2, 3, 4, ... ni las vocales a, e, i, o , u.
 
-Escriba un programa que lea una serie indefinida de caracteres de la entrada est·ndar (terminados en #) 
+Escriba un programa que lea una serie indefinida de caracteres de la entrada est√°ndar (terminados en #) 
 y muestre la figura (las barras, los conteos y las vocales) que representa la frecuencia absoluta de las vocales introducidas.
 
-Por ejemplo, la anterior figura serÌa el diagrama de barras de la siguiente entrada:
+Por ejemplo, la anterior figura ser√≠a el diagrama de barras de la siguiente entrada:
 	You should solve this typical exam problem in no more than 30 minutes#
 
 */
