@@ -1,20 +1,19 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en Ingeniería Informática
-Asignatura: Fundamentos de la Programación
-Curso: 1º 	Grupo: C		Subgrupo: C1
-Profesor Teoría: Juan Carlos Cubero
-Proferosa Prácticas: María del Carmen Pegalajar
+Grado en IngenierÃ­a InformÃ¡tica
+Asignatura: Fundamentos de la ProgramaciÃ³n
+Curso: 1Âº 	Grupo: C		Subgrupo: C1
+Profesor TeorÃ­a: Juan Carlos Cubero
+Proferosa PrÃ¡cticas: MarÃ­a del Carmen Pegalajar
 
-Sesión 14
-Ejercicio 12 - Polígono (Examen Febrero 2016)
+SesiÃ³n 14
+Ejercicio 12 - PolÃ­gono (Examen Febrero 2016)
 Programa que genera un poligono regular con valores por defecto (poligono1) y otro con unos valores dados (poligono2).
-Se generarán otros dos polígonos regulares a partir del primero (poligono3 y poligono4)
-Se compararán las áreas del poligono1 y el poligono2.
-Se duplicará el número de lados del poligono3 y se comparará su área con el poligono1.
-Se duplicará el número de lados del poligono4 hasta que se asemeje a la circunferencia circunscrita (error < 1e-5)
-Finalmente se mostrará en pantalla los resultados de dichas comparaciones y el numero de lados que tendrá el poligono4.
+Se generarÃ¡n otros dos polÃ­gonos regulares a partir del primero (poligono3 y poligono4)
+Se compararÃ¡n las Ã¡reas del poligono1 y el poligono2.
+Se duplicarÃ¡ el nÃºmero de lados del poligono3 y se compararÃ¡ su Ã¡rea con el poligono1.
+Se duplicarÃ¡ el nÃºmero de lados del poligono4 hasta que se asemeje a la circunferencia circunscrita (error < 1e-5)
+Finalmente se mostrarÃ¡ en pantalla los resultados de dichas comparaciones y el numero de lados que tendrÃ¡ el poligono4.
  */
 
 #include <iostream>
@@ -119,7 +118,7 @@ int main(){
 						 poligono3(poligono1),
 						 poligono4(poligono1);
 						 
-	// Cómputos
+	// CÃ³mputos
 	mas_grande = poligono1.ComparaPoligonos(poligono2);
 	poligono3.MultiplicaLados(2);
 		
