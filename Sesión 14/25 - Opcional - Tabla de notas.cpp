@@ -1,18 +1,17 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en Ingeniería Informática
-Asignatura: Fundamentos de la Programación
-Curso: 1º 	Grupo: C		Subgrupo: C1
-Profesor Teoría: Juan Carlos Cubero
-Proferosa Prácticas: María del Carmen Pegalajar
+Grado en IngenierÃ­a InformÃ¡tica
+Asignatura: Fundamentos de la ProgramaciÃ³n
+Curso: 1Âº 	Grupo: C		Subgrupo: C1
+Profesor TeorÃ­a: Juan Carlos Cubero
+Proferosa PrÃ¡cticas: MarÃ­a del Carmen Pegalajar
 
-Sesión 14
+SesiÃ³n 14
 Ejercicio 25 - Tabla de notas
 
-Programa que lee un numero de alumnos establecido al principio del mismo, el nombre de éstos y
-sus notas obtenidas. Se calculará la nota media de los alumnos y se imprimirá en pantalla los
-nombres junto con sus notas obtenidos, ordenados de menor a mayor según sus notas medias.
+Programa que lee un numero de alumnos establecido al principio del mismo, el nombre de Ã©stos y
+sus notas obtenidas. Se calcularÃ¡ la nota media de los alumnos y se imprimirÃ¡ en pantalla los
+nombres junto con sus notas obtenidos, ordenados de menor a mayor segÃºn sus notas medias.
 
 */
 
@@ -485,12 +484,12 @@ public:
       int  utilizados_a_buscar;
 
       /*
-      Tenemos una secuencia "grande" de tamaño G y otra pequeña de tamaño P
+      Tenemos una secuencia "grande" de tamaÃ±o G y otra pequeÃ±a de tamaÃ±o P
 
-      Recorrer la secuencia "grande" fijando una posición inicial inicio
-      La última posición inicial a probar será G-P
+      Recorrer la secuencia "grande" fijando una posiciÃ³n inicial inicio
+      La Ãºltima posiciÃ³n inicial a probar serÃ¡ G-P
          A partir de inicio recorrer en paralelo las
-         dos secuencias "grande" y "pequeña"
+         dos secuencias "grande" y "pequeÃ±a"
          Si no coinciden todas las componentes, hay que
          empezar de nuevo a partir de inicio + 1.
       */
@@ -521,15 +520,15 @@ public:
       else
          return -1;
    /*
-   Batería de pruebas:
-      Los dos vectores vacíos.
-      Alguno de ellos vacío.
+   BaterÃ­a de pruebas:
+      Los dos vectores vacÃ­os.
+      Alguno de ellos vacÃ­o.
       Los dos vectores iguales.  atti / atti
       Que no se encuentre.   atti / tj
       Que se encuentre al principio.  atti / at
       Que se encuentre justo al final. atti / ti
       Que haya un emparejamiento parcial pero no total,
-      aunque luego sí se encuentre.  atttij / ti
+      aunque luego sÃ­ se encuentre.  atttij / ti
    */
    }
 };
@@ -705,7 +704,7 @@ int main(){
 		alumnos_introducidos++;
 	}
 	
-	// Cómputos
+	// CÃ³mputos
 	alumnos_ordenados = alumnos.OrdenaMedias();
 	
 	// Salida de resultados
