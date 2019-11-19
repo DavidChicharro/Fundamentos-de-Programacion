@@ -1,19 +1,18 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en IngenierÌa Inform·tica
-Asignatura: Fundamentos de la ProgramaciÛn
-Curso: 1∫ 	Grupo: C		Subgrupo: C1
-Profesor TeorÌa: Juan Carlos Cubero
-Proferosa Pr·cticas: MarÌa del Carmen Pegalajar
+Grado en Ingenier√≠a Inform√°tica
+Asignatura: Fundamentos de la Programaci√≥n
+Curso: 1¬∫ 	Grupo: C		Subgrupo: C1
+Profesor Teor√≠a: Juan Carlos Cubero
+Proferosa Pr√°cticas: Mar√≠a del Carmen Pegalajar
 
-SesiÛn 13
+Sesi√≥n 13
 Ejercicio 14 - Palabra desordenada (Examen Examen Febrero 2009)
 
-Programa que lee dos secuencias, una ordenada y otra desordenada. Se comprobar· su similutud, es decir,
-que la primera y la ˙ltima letra de sendas secuencias coincidan y que el resto de letras sean las
-mismas aunque no estÈn necesariamente en las mismas posiciones; el programa determinar· si son similares
-y se imprimir· en pantalla si lo son o no.
+Programa que lee dos secuencias, una ordenada y otra desordenada. Se comprobar√° su similutud, es decir,
+que la primera y la √∫ltima letra de sendas secuencias coincidan y que el resto de letras sean las
+mismas aunque no est√©n necesariamente en las mismas posiciones; el programa determinar√° si son similares
+y se imprimir√° en pantalla si lo son o no.
 
 */
 
@@ -127,7 +126,7 @@ int main(){
 		cin.get(caracter);
 	}
 	
-	// CÛmputos
+	// C√≥mputos
 	son_similares = secuencia_ordenada.SecuenciaSimilar(secuencia_desordenada);
 	
 	// Salida de resultados
