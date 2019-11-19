@@ -1,23 +1,22 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en IngenierÌa Inform·tica
-Asignatura: Fundamentos de la ProgramaciÛn
-Curso: 1∫ 	Grupo: C		Subgrupo: C1
-Profesor TeorÌa: Juan Carlos Cubero
-Proferosa Pr·cticas: MarÌa del Carmen Pegalajar
+Grado en Ingenier√≠a Inform√°tica
+Asignatura: Fundamentos de la Programaci√≥n
+Curso: 1¬∫ 	Grupo: C		Subgrupo: C1
+Profesor Teor√≠a: Juan Carlos Cubero
+Proferosa Pr√°cticas: Mar√≠a del Carmen Pegalajar
 
-SesiÛn 13
+Sesi√≥n 13
 Ejercicio 6 - Moda vs 2
 
-Recupere la soluciÛn del ejercicio 5 (Moda) 
-Elimine el mÈtodo NumeroOcurrencias y en su lugar defina el mÈtodo
+Recupere la soluci√≥n del ejercicio 5 (Moda) 
+Elimine el m√©todo NumeroOcurrencias y en su lugar defina el m√©todo
 	SecuenciaEnteros PosicionesOcurrencias (char buscado, int izda, int dcha)
 que devuelve las posiciones en las que se encuentra el elemento buscado. 
-Para ello, tendr· que usar la clase SecuenciaEnteros, an·loga a SecuenciaCaracteres,
-cuya definiciÛn puede encontrarse en:
+Para ello, tendr√° que usar la clase SecuenciaEnteros, an√°loga a SecuenciaCaracteres,
+cuya definici√≥n puede encontrarse en:
 http://decsai.ugr.es/~carlos/FP/SecuenciaEnteros.cpp
-Cambie la implementaciÛn del mÈtodo Moda del ejercicio 5 para que use este nuevo mÈtodo
+Cambie la implementaci√≥n del m√©todo Moda del ejercicio 5 para que use este nuevo m√©todo
 
 */
 
@@ -72,8 +71,8 @@ public:
    }
    
    string ToString(){
-      // Si el n˙mero de caracteres en memoria es muy grande,
-      // es mucho m·s eficiente reservar memoria previamente
+      // Si el n√∫mero de caracteres en memoria es muy grande,
+      // es mucho m√°s eficiente reservar memoria previamente
       // y usar push_back
 
       string cadena;
@@ -83,7 +82,7 @@ public:
       for (int i=0; i < total_utilizados; i++){
          cadena.append(to_string(vector_privado[i]));
          cadena.append(" ");
-         //cadena = cadena + to_string(vector_privado[i])  <- Evitarlo. Muy ineficiente para tamaÒos grandes;
+         //cadena = cadena + to_string(vector_privado[i])  <- Evitarlo. Muy ineficiente para tama√±os grandes;
       }
       
       return cadena;
@@ -111,7 +110,7 @@ public:
    
 
    /////////////////////////////////////////////////////////////
-   // B˙squedas
+   // B√∫squedas
    
    // Precond: 0 <= izda <= dcha < total_utilizados
    int PosicionMinimoEntre(int izda, int dcha){
@@ -163,7 +162,7 @@ public:
    /////////////////////////////////////////////////////////////
    // Recorridos que modifican las componentes
    
-   // Inserta un valor en la posiciÛn especificada
+   // Inserta un valor en la posici√≥n especificada
    void Inserta(int pos_insercion, long valor_nuevo){
       if (total_utilizados < TAMANIO  &&  pos_insercion >= 0    
          &&  pos_insercion <= total_utilizados){
@@ -176,7 +175,7 @@ public:
       }
    }
    
-   // Elimina una componente, dada por su posiciÛn
+   // Elimina una componente, dada por su posici√≥n
    void Elimina (int posicion){
       if (posicion >= 0 && posicion < total_utilizados){
          int tope = total_utilizados-1;
@@ -190,7 +189,7 @@ public:
    
    
    /////////////////////////////////////////////////////////////
-   // Algoritmos de ordenaciÛn
+   // Algoritmos de ordenaci√≥n
    
    void Ordena_por_Seleccion(){
       int pos_min;
@@ -260,12 +259,12 @@ public:
       int  utilizados_a_buscar;
 
       /*
-      Tenemos una secuencia "grande" de tamaÒo G y otra pequeÒa de tamaÒo P
+      Tenemos una secuencia "grande" de tama√±o G y otra peque√±a de tama√±o P
 
-      Recorrer la secuencia "grande" fijando una posiciÛn inicial inicio
-      La ˙ltima posiciÛn inicial a probar ser· G-P
+      Recorrer la secuencia "grande" fijando una posici√≥n inicial inicio
+      La √∫ltima posici√≥n inicial a probar ser√° G-P
          A partir de inicio recorrer en paralelo las
-         dos secuencias "grande" y "pequeÒa"
+         dos secuencias "grande" y "peque√±a"
          Si no coinciden todas las componentes, hay que
          empezar de nuevo a partir de inicio + 1.
       */
@@ -298,7 +297,7 @@ public:
    }
 };
 
-/* struct que almacena cada caracter con su n˙mero de apariciones */
+/* struct que almacena cada caracter con su n√∫mero de apariciones */
 struct FrecuenciaCaracter{
 	char caracter;
 	int frecuencia;
@@ -384,7 +383,7 @@ public:
 };
 
 int main(){
-	// DeclaraciÛn de variables
+	// Declaraci√≥n de variables
 	const char TERMINADOR = '#';	
 	char caracter;
 	SecuenciaCaracteres secuencia;
@@ -401,7 +400,7 @@ int main(){
 		caracter = tolower(caracter);
 	}
 
-	// CÛmputos
+	// C√≥mputos
 	moda = secuencia.Moda();	
 
 	// Salida de resultados
