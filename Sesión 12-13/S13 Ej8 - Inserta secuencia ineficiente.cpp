@@ -1,19 +1,18 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en IngenierÌa Inform·tica
-Asignatura: Fundamentos de la ProgramaciÛn
-Curso: 1∫ 	Grupo: C		Subgrupo: C1
-Profesor TeorÌa: Juan Carlos Cubero
-Proferosa Pr·cticas: MarÌa del Carmen Pegalajar
+Grado en Ingenier√≠a Inform√°tica
+Asignatura: Fundamentos de la Programaci√≥n
+Curso: 1¬∫ 	Grupo: C		Subgrupo: C1
+Profesor Teor√≠a: Juan Carlos Cubero
+Proferosa Pr√°cticas: Mar√≠a del Carmen Pegalajar
 
-SesiÛn 13
+Sesi√≥n 13
 Ejercicio 8 - Inserta secuencia ineficiente 
 
-Programa que pide una secuencia de caracteres y una posiciÛn de inserciÛn 
-para insertar otra secuencia que se introducir· en el paso siguiente en 
-dicha posiciÛn. Una vez introducidos todos los datos, el programa realizar· 
-la inserciÛn y se mostrar· en pantalla el resultado definitivo.
+Programa que pide una secuencia de caracteres y una posici√≥n de inserci√≥n 
+para insertar otra secuencia que se introducir√° en el paso siguiente en 
+dicha posici√≥n. Una vez introducidos todos los datos, el programa realizar√° 
+la inserci√≥n y se mostrar√° en pantalla el resultado definitivo.
 
 */
 
