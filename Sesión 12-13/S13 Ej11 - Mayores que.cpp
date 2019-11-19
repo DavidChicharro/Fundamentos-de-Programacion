@@ -1,17 +1,16 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en Ingeniería Informática
-Asignatura: Fundamentos de la Programación
-Curso: 1º 	Grupo: C		Subgrupo: C1
-Profesor Teoría: Juan Carlos Cubero
-Proferosa Prácticas: María del Carmen Pegalajar
+Grado en IngenierÃ­a InformÃ¡tica
+Asignatura: Fundamentos de la ProgramaciÃ³n
+Curso: 1Âº 	Grupo: C		Subgrupo: C1
+Profesor TeorÃ­a: Juan Carlos Cubero
+Proferosa PrÃ¡cticas: MarÃ­a del Carmen Pegalajar
 
-Sesión
+SesiÃ³n
 Ejercicio 11 - k Mayores que, dentro de una clase
 
-El programa lee una secuencia de números reales para ordenar los k mayores que una referencia.
-para ello pide dicha referencia y otro que será el número k. Finalmente imprimirá en pantalla
+El programa lee una secuencia de nÃºmeros reales para ordenar los k mayores que una referencia.
+para ello pide dicha referencia y otro que serÃ¡ el nÃºmero k. Finalmente imprimirÃ¡ en pantalla
 los valores mayores que k de manera ordenada.
 
 */
@@ -62,8 +61,8 @@ public:
    }
    
    string ToString(){
-      // Si el número de caracteres en memoria es muy grande,
-      // es mucho más eficiente reservar memoria previamente
+      // Si el nÃºmero de caracteres en memoria es muy grande,
+      // es mucho mÃ¡s eficiente reservar memoria previamente
       // y usar push_back
 
       string cadena;
@@ -73,14 +72,14 @@ public:
       for (int i=0; i < total_utilizados; i++){
          cadena.append(to_string(vector_privado[i]));
          cadena.append(" ");
-         //cadena = cadena + to_string(vector_privado[i])  <- Evitarlo. Muy ineficiente para tamaños grandes;
+         //cadena = cadena + to_string(vector_privado[i])  <- Evitarlo. Muy ineficiente para tamaÃ±os grandes;
       }
       
       return cadena;
    }
 
    /////////////////////////////////////////////////////////////
-   // Búsquedas
+   // BÃºsquedas
    
    // Precond: 0 <= izda <= dcha < total_utilizados
    int PosicionMinimoEntre(int izda, int dcha){
@@ -129,7 +128,7 @@ public:
    }
    
    /////////////////////////////////////////////////////////////
-   // Algoritmos de ordenación
+   // Algoritmos de ordenaciÃ³n
    
    void Ordena_por_Seleccion(){
       int pos_min;
