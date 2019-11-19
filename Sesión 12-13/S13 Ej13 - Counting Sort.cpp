@@ -1,13 +1,12 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en Ingeniería Informática
-Asignatura: Fundamentos de la Programación
-Curso: 1º 	Grupo: C		Subgrupo: C1
-Profesor Teoría: Juan Carlos Cubero
-Proferosa Prácticas: María del Carmen Pegalajar
+Grado en IngenierÃ­a InformÃ¡tica
+Asignatura: Fundamentos de la ProgramaciÃ³n
+Curso: 1Âº 	Grupo: C		Subgrupo: C1
+Profesor TeorÃ­a: Juan Carlos Cubero
+Proferosa PrÃ¡cticas: MarÃ­a del Carmen Pegalajar
 
-Sesión 13
+SesiÃ³n 13
 Ejercicio 13 - Counting Sort
 
 Programa que lee una secuencia de caracteres y los devuelve de manera ordenada en pantalla
@@ -121,7 +120,7 @@ public:
 		}		
 		
 		for (int i = 0 ; i < total_utilizados ; i++){			
-			for (int j = 0 ; j < vector_local[i] && vector_local[i] != 0 ; j++)		// Se añade el caracter tantas veces como indique su frecuencia de aparicion
+			for (int j = 0 ; j < vector_local[i] && vector_local[i] != 0 ; j++)		// Se aÃ±ade el caracter tantas veces como indique su frecuencia de aparicion
 				ordenados.Aniade(letra);															// y se almacena en un nuevo objeto de la clase SecuenciaCaracteres
 			
 			letra++;
@@ -145,7 +144,7 @@ int main(){
 		cin >> caracter;
 	}
 	
-	// Cómputos
+	// CÃ³mputos
 	ordenados = secuencia.CountingSort();
 	
 	// Salida de resultados
