@@ -1,17 +1,16 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en IngenierÌa Inform·tica
-Asignatura: Fundamentos de la ProgramaciÛn
-Curso: 1∫ 	Grupo: C		Subgrupo: C1
-Profesor TeorÌa: Juan Carlos Cubero
-Proferosa Pr·cticas: MarÌa del Carmen Pegalajar
+Grado en Ingenier√≠a Inform√°tica
+Asignatura: Fundamentos de la Programaci√≥n
+Curso: 1¬∫ 	Grupo: C		Subgrupo: C1
+Profesor Teor√≠a: Juan Carlos Cubero
+Proferosa Pr√°cticas: Mar√≠a del Carmen Pegalajar
 
-SesiÛn 12
+Sesi√≥n 12
 Ejercicio 10: Moda dentro de la clase SecuenciaCaracteres
 
-Defina el mÈtodo Moda dentro de la clase SecuenciaCaracteres. 
-Este mÈtodo debe devolver un dato de tipo FrecuenciaCaracter (struct).
+Defina el m√©todo Moda dentro de la clase SecuenciaCaracteres. 
+Este m√©todo debe devolver un dato de tipo FrecuenciaCaracter (struct).
 
 */
 
@@ -20,7 +19,7 @@ Este mÈtodo debe devolver un dato de tipo FrecuenciaCaracter (struct).
 #include <cctype>
 using namespace std;
 
-/*Almacena de forma conjunta el car·cter 
+/*Almacena de forma conjunta el car√°cter 
 y la frecuencia con la que aparece*/
 struct FrecuenciaCaracter{
 	char caracter;
@@ -41,8 +40,8 @@ public:
 	{
 	}
 	
-	/* MÈtodo p˙blico que indica la posicion en la que se encuentra un caracter.
-	En caso de que no exista, devuelve una posiciÛn no v·lida */
+	/* M√©todo p√∫blico que indica la posicion en la que se encuentra un caracter.
+	En caso de que no exista, devuelve una posici√≥n no v√°lida */
 	int EstaCaracter(char caracter){
 		bool existe_caracter = false;
 		int posicion;	
@@ -62,7 +61,7 @@ public:
 	void Aniade(char caracter){
 		int posicion = EstaCaracter(caracter);
 		
-		if (posicion == -1){													// Si la posiciÛn es -1 (no v·lida), se le asigna una posiciÛn al final del vector
+		if (posicion == -1){													// Si la posici√≥n es -1 (no v√°lida), se le asigna una posici√≥n al final del vector
 			vector_privado[util_vector].caracter = caracter;
 			vector_privado[util_vector].frecuencia = 1;
 			util_vector++;
@@ -75,7 +74,7 @@ public:
 		maximo = vector_privado[0].frecuencia;
 		letra_mas_repetida = vector_privado[0].caracter;
 		
-		for (int i = 1 ; i < util_vector ; i++){						// Calcula cual es el caracter que tiene m·s apariciones
+		for (int i = 1 ; i < util_vector ; i++){						// Calcula cual es el caracter que tiene m√°s apariciones
 			if(maximo < vector_privado[i].frecuencia && vector_privado[i].caracter != ' '){
 				maximo = vector_privado[i].frecuencia;
 				letra_mas_repetida = vector_privado[i].caracter;
@@ -93,12 +92,12 @@ public:
 };
 
 int main(){
-	// DeclaraciÛn de variables
+	// Declaraci√≥n de variables
 	const char TERMINADOR = '#';	
 	char caracter;
 	SecuenciaCaracteres secuencia;
 	
-	// Entrada de datos y cÛmputos
+	// Entrada de datos y c√≥mputos
 	cin.get(caracter);
 	caracter = tolower(caracter);
 	
