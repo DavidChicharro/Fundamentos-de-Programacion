@@ -1,25 +1,24 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en Ingeniería Informática
-Asignatura: Fundamentos de la Programación
-Curso: 1º 	Grupo: C		Subgrupo: C1
-Profesor Teoría: Juan Carlos Cubero
-Proferosa Prácticas: María del Carmen Pegalajar
+Grado en IngenierÃ­a InformÃ¡tica
+Asignatura: Fundamentos de la ProgramaciÃ³n
+Curso: 1Âº 	Grupo: C		Subgrupo: C1
+Profesor TeorÃ­a: Juan Carlos Cubero
+Proferosa PrÃ¡cticas: MarÃ­a del Carmen Pegalajar
 
-Sesión 13
+SesiÃ³n 13
 Ejercicio 5 - Moda
 
 El programa lee una secuencia de caracteres y calcula cual es la letra que
-más apariciones tiene de todos los introducidos. Una vez calculado, dicha 
-letra se imprime en pantalla junto a su número de apariciones.
+mÃ¡s apariciones tiene de todos los introducidos. Una vez calculado, dicha 
+letra se imprime en pantalla junto a su nÃºmero de apariciones.
 
 */
 
 #include <iostream>
 using namespace std;
 
-/* struct que almacena cada caracter con su número de apariciones */
+/* struct que almacena cada caracter con su nÃºmero de apariciones */
 struct FrecuenciaCaracter{
 	char caracter;
 	int frecuencia;
@@ -103,7 +102,7 @@ public:
 };
 
 int main(){
-	// Declaración de variables
+	// DeclaraciÃ³n de variables
 	const char TERMINADOR = '#';	
 	char caracter;
 	SecuenciaCaracteres secuencia;
@@ -120,7 +119,7 @@ int main(){
 		caracter = tolower(caracter);
 	}
 
-	// Cómputos
+	// CÃ³mputos
 	moda = secuencia.Moda();	
 
 	// Salida de resultados
