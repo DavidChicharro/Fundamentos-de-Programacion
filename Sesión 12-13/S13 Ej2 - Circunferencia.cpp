@@ -1,19 +1,18 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en Ingeniería Informática
-Asignatura: Fundamentos de la Programación
-Curso: 1º 	Grupo: C		Subgrupo: C1
-Profesor Teoría: Juan Carlos Cubero
-Proferosa Prácticas: María del Carmen Pegalajar
+Grado en IngenierÃ­a InformÃ¡tica
+Asignatura: Fundamentos de la ProgramaciÃ³n
+Curso: 1Âº 	Grupo: C		Subgrupo: C1
+Profesor TeorÃ­a: Juan Carlos Cubero
+Proferosa PrÃ¡cticas: MarÃ­a del Carmen Pegalajar
 
-Sesión 13
+SesiÃ³n 13
 Ejercicio 2 - Circunferencia
 
 Programa que lee el centro y la longitud del radio para construir una circunferencia.
-A partir de ella se construirá el segmento correspondiente al radio.
-Después se calculará la longitud del segmento radio y mostrará el resultado en pantalla,
-que deberá coincidir con la longitud original del radio)
+A partir de ella se construirÃ¡ el segmento correspondiente al radio.
+DespuÃ©s se calcularÃ¡ la longitud del segmento radio y mostrarÃ¡ el resultado en pantalla,
+que deberÃ¡ coincidir con la longitud original del radio)
 
 */
 
@@ -114,7 +113,7 @@ int main(){
 	cin >> punto_abscisa;
 	cin >> punto_ordenada;
 	
-	// Cómputos
+	// CÃ³mputos
 	segmento_dirigido.SetCoordenadas (centro_circunferencia_abscisa, centro_cincunferencia_ordenada,
 							 punto_abscisa, punto_ordenada);
 	
