@@ -1,28 +1,27 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en IngenierÌa Inform·tica
-Asignatura: Fundamentos de la ProgramaciÛn
-Curso: 1∫ 	Grupo: C		Subgrupo: C1
-Profesor TeorÌa: Juan Carlos Cubero
-Proferosa Pr·cticas: MarÌa del Carmen Pegalajar
+Grado en Ingenier√≠a Inform√°tica
+Asignatura: Fundamentos de la Programaci√≥n
+Curso: 1¬∫ 	Grupo: C		Subgrupo: C1
+Profesor Teor√≠a: Juan Carlos Cubero
+Proferosa Pr√°cticas: Mar√≠a del Carmen Pegalajar
 
-SesiÛn 12
-Ejercicio 12 - Elimina un bloque de caracteres. VersiÛn ineficiente
+Sesi√≥n 12
+Ejercicio 12 - Elimina un bloque de caracteres. Versi√≥n ineficiente
 
-Sobre la clase SecuenciaCaracteres, aÒada el mÈtodo EliminaBloque 
+Sobre la clase SecuenciaCaracteres, a√±ada el m√©todo EliminaBloque 
 para que borre todos los caracteres que haya entre dos posiciones.
 
-Un primer algoritmo (poco eficiente) para resolver este problema serÌa el siguiente:
+Un primer algoritmo (poco eficiente) para resolver este problema ser√≠a el siguiente:
 Para borrar el bloque entre izda y dcha:
 	Recorrer cada componente -i- de la secuencia
 	entre las posiciones izda y dcha
 		Eliminar dicha componente -i
 
-El programa que leer· caracteres hasta el terminador '#'. 
-A continuaciÛn se leer·n dos enteros que representen las posiciones 
+El programa que leer√° caracteres hasta el terminador '#'. 
+A continuaci√≥n se leer√°n dos enteros que representen las posiciones 
 izquierda y derecha del bloque a borrar. Una vez borrados los caracteres,
-se imprimir· en pantalla la secuencia resultante de quitar dicho bloque.
+se imprimir√° en pantalla la secuencia resultante de quitar dicho bloque.
 
 */
 
