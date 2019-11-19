@@ -1,21 +1,20 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en Ingeniería Informática
-Asignatura: Fundamentos de la Programación
-Curso: 1º 	Grupo: C		Subgrupo: C1
-Profesor Teoría: Juan Carlos Cubero
-Proferosa Prácticas: María del Carmen Pegalajar
+Grado en IngenierÃ­a InformÃ¡tica
+Asignatura: Fundamentos de la ProgramaciÃ³n
+Curso: 1Âº 	Grupo: C		Subgrupo: C1
+Profesor TeorÃ­a: Juan Carlos Cubero
+Proferosa PrÃ¡cticas: MarÃ­a del Carmen Pegalajar
 
-Sesión 13
+SesiÃ³n 13
 Ejercicio 10 - Parking con la clase Instante
 
 Programa que calcula las tarifas de dos parkings 
 utilizando una clase 'Instante' que devuelve como 
-objetos los instantes de entrada y salida del vehículo.
+objetos los instantes de entrada y salida del vehÃ­culo.
 Una vez introducidos los tramos horarios y las tarifas 
-de cada tramo, el programa calculará la tarifa total 
-y la mostrará en pantalla.
+de cada tramo, el programa calcularÃ¡ la tarifa total 
+y la mostrarÃ¡ en pantalla.
 
 */
 
@@ -121,8 +120,8 @@ int main(){
 		cin >> limite_superior;
 		cin >> tarifa;
 		parking_1.AniadeTramo(limite_superior, tarifa);
-	}while (limite_superior != TERMINADOR 													// Cuando limite_superior sea -1, éste valdrá tanto de TERMINADOR
-			  && parking_1.TotalUtilizados() < parking_1.Capacidad() );				// como para definir el último tramo
+	}while (limite_superior != TERMINADOR 													// Cuando limite_superior sea -1, Ã©ste valdrÃ¡ tanto de TERMINADOR
+			  && parking_1.TotalUtilizados() < parking_1.Capacidad() );				// como para definir el Ãºltimo tramo
 
 	cout << "\nParking 2: \n";
 	do{
