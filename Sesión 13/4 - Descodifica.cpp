@@ -1,16 +1,15 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en Ingeniería Informática
-Asignatura: Fundamentos de la Programación
-Curso: 1º 	Grupo: C		Subgrupo: C1
-Profesor Teoría: Juan Carlos Cubero
-Proferosa Prácticas: María del Carmen Pegalajar
+Grado en IngenierÃ­a InformÃ¡tica
+Asignatura: Fundamentos de la ProgramaciÃ³n
+Curso: 1Âº 	Grupo: C		Subgrupo: C1
+Profesor TeorÃ­a: Juan Carlos Cubero
+Proferosa PrÃ¡cticas: MarÃ­a del Carmen Pegalajar
 
-Sesión 13
+SesiÃ³n 13
 Ejercicio 4 - Descodifica en la clase SecuenciaCaracteres
 
-El programa lee una secuencia de caracteres. Después, mediante un método
+El programa lee una secuencia de caracteres. DespuÃ©s, mediante un mÃ©todo
 de la clase SecuenciaCaracteres, descodifica los caracteres introducidos 
 e imprime por pantalla el resultado descodificado.
 
@@ -82,9 +81,9 @@ public:
 		bool anterior_blanco = true;
 		
 		for (int i = 0 ; i < total_utilizados ; i++){
-			if (vector_privado[i] != ' '){										// Si el caracter de la posición actual no es un espacio en blanco
+			if (vector_privado[i] != ' '){										// Si el caracter de la posiciÃ³n actual no es un espacio en blanco
 				if (vector_privado[i+1] == ' ' || anterior_blanco)			// y si el caracter siguiente o el anterior son espacios en blanco
-					descodificado.Aniade(vector_privado[i]);					// entonces se añade el caracter al vector de la nueva clase de descodificados
+					descodificado.Aniade(vector_privado[i]);					// entonces se aÃ±ade el caracter al vector de la nueva clase de descodificados
 				
 				anterior_blanco = false;											// Al entrar en este bloque 'if' el caracter se define como distinto a un espacio en blanco
 			}
@@ -109,7 +108,7 @@ int main(){
 		cin.get(caracter);
 	}
 	
-	// Cómputos
+	// CÃ³mputos
 	descodificado = secuencia.Descodifica();
 	
 	// Salida de resultados
