@@ -1,21 +1,20 @@
 /*
 Alumno: David Carrasco Chicharro
-D.N.I.: 15520228-N
-Grado en IngenierÌa Inform·tica
-Asignatura: Fundamentos de la ProgramaciÛn
-Curso: 1∫ 	Grupo: C		Subgrupo: C1
-Profesor TeorÌa: Juan Carlos Cubero
-Proferosa Pr·cticas: MarÌa del Carmen Pegalajar
+Grado en Ingenier√≠a Inform√°tica
+Asignatura: Fundamentos de la Programaci√≥n
+Curso: 1¬∫ 	Grupo: C		Subgrupo: C1
+Profesor Teor√≠a: Juan Carlos Cubero
+Proferosa Pr√°cticas: Mar√≠a del Carmen Pegalajar
 
-SesiÛn 13
+Sesi√≥n 13
 Ejercicio 3 - Lector tarifador parking
 
 Programa que calcula las tarifas de dos parkings utilizando 
 una clase LectorTarifador que realiza la entrada de datos.
 y la clase 'Instante' que devuelve como objetos los instantes 
-de entrada y salida del vehÌculo.
+de entrada y salida del veh√≠culo.
 Una vez introducidos los tramos horarios y las tarifas de cada tramo, 
-el programa calcular· la tarifa total de ambos parkings.
+el programa calcular√° la tarifa total de ambos parkings.
 
 */
 
